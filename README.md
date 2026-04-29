@@ -29,15 +29,23 @@
 - <a href="https://www.youtube.com/watch?v=iL0PgznzNYw">Vídeo demonstrativo — FarmTech: visão computacional</a>
 - <a href="https://drive.google.com/drive/folders/1QkMjpWbr78nk51uMblVASSsta4NVClyc?usp=drive_link">Download do dataset</a>
 - <a href="https://www.makesense.ai">Makesense.ai</a>
-- <a href="https://colab.research.google.com/drive/1hzZe28sTlCMFYP_7XFrj7c6kaUWVq-rx?usp=sharing"> Notebook do projeto (Google Colab)</a>
+- <a href="https://colab.research.google.com/drive/1hzZe28sTlCMFYP_7XFrj7c6kaUWVq-rx?usp=sharing">Notebook — Entrega 1 (Google Colab)</a>
+- <a href="Vcomputacional_entrega2_fase6.ipynb">Notebook — Entrega 2 (YOLO tradicional + CNN do zero)</a>
 
 ## 🚀 Como Executar o Projeto
 
+### Entrega 1 — YOLOv5 Customizado
 1. Faça o download do dataset pelo link disponibilizado
 2. Realize o upload da pasta no seu Google Drive
-3. Acesse o notebook no Google Colab
+3. Acesse o notebook da Entrega 1 no Google Colab
 4. Execute todas as células em ordem
 5. Conceda as permissões de acesso ao Google Drive quando solicitado
+
+### Entrega 2 — YOLO Tradicional + CNN do Zero
+1. Use o mesmo dataset da Entrega 1
+2. Abra o arquivo `Vcomputacional_entrega2_fase6.ipynb` no Google Colab
+3. Execute todas as células em ordem
+4. Os labels da pasta `train/labels` e `test/labels` são necessários para a CNN
 
 ---
 ## 📜 Descrição - Entrega 1
@@ -130,6 +138,18 @@ Abaixo estão alguns exemplos do reconhecimento dos objetos, vale ressaltar que 
 ### Imagem de teste 4
 <img src="assets/imagens/teste4_laranja.png" width="1000">
 
+---
+## 🔬 Descrição - Entrega 2
+
+Esta entrega compara o YOLOv5 customizado (Entrega 1) com outras duas abordagens de visão computacional aplicadas ao mesmo dataset de bananas e laranjas:
+
+1. **YOLO Tradicional (COCO)** — YOLOv5 sem fine-tuning, usando apenas os pesos pré-treinados no dataset COCO. Banana (classe 46) e laranja (classe 49) já existem no COCO, então o modelo pode detectá-las sem nenhum treinamento adicional.
+
+2. **CNN treinada do zero** — Rede neural convolucional construída do início com PyTorch, treinada para classificar (não detectar) imagens entre banana e laranja.
+
+Cada abordagem é avaliada em termos de precisão, tempo de treinamento, tempo de inferência e facilidade de uso. O notebook `Vcomputacional_entrega2_fase6.ipynb` contém toda a implementação, execução e análise crítica comparativa.
+
+---
 ## ✅ Conclusão
 
 O desenvolvimento deste projeto permitiu compreender, na prática, o funcionamento de um sistema de visão computacional utilizando o modelo YOLO.
