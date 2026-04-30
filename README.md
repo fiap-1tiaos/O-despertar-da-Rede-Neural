@@ -26,11 +26,12 @@
 
 ## Links:
 
-- <a href="https://www.youtube.com/watch?v=iL0PgznzNYw">Vídeo demonstrativo — FarmTech: visão computacional</a>
-- <a href="https://drive.google.com/drive/folders/1QkMjpWbr78nk51uMblVASSsta4NVClyc?usp=drive_link">Download do dataset</a>
-- <a href="https://www.makesense.ai">Makesense.ai</a>
+- <a href="https://www.youtube.com/watch?v=iL0PgznzNYw">Vídeo demonstrativo — FarmTech: visão computacional - Entrega 1</a>
 - <a href="https://colab.research.google.com/drive/1hzZe28sTlCMFYP_7XFrj7c6kaUWVq-rx?usp=sharing">Notebook — Entrega 1 (Google Colab)</a>
-- <a href="Vcomputacional_entrega2_fase6.ipynb">Notebook — Entrega 2 (YOLO tradicional + CNN do zero)</a>
+- <a href="https://colab.research.google.com/drive/1yNCjFOEm5wCkYUVDeu3Afe0MqefAYQhi#scrollTo=cnn-evaluation">Notebook — Entrega 2 (YOLO tradicional + CNN do zero - Google Colab)</a>
+- <a href="https://www.youtube.com/watch?v=ToR5A7jRlkk">Vídeo demonstrativo — FarmTech: visão computacional - Entrega 2</a>
+- <a href="https://www.makesense.ai">Makesense.ai</a>
+- <a href="https://drive.google.com/drive/folders/1QkMjpWbr78nk51uMblVASSsta4NVClyc?usp=drive_link">Download do dataset</a>
 
 ## 🚀 Como Executar o Projeto
 
